@@ -1,32 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gerador de Textos</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
+    <header>
+      <h1>Gerador de Textos</h1>
+      <p>Para o Telegram</p>
+    </header>
     <main>
-        <h1>Gerador de textos para o telegram</h1>
-        <hr>
-        <form>
-            <label for="name">Coloque o nome do produto:</label>
-            <input type="text" name="name" id="name" autocomplete="off"placeholder="Digite o nome do produto"><br>
-            <label for="name">Coloque o valor atual do produto:</label>
-            <input type="text" name="valor" id="valor_atual" autocomplete="off"placeholder="Digite o valor atual"><br>
-            <label for="name">Coloque o cupom do produto:</label>
-            <input type="text" name="cupom" id="cupom" autocomplete="off"placeholder="Coloque o cupom"><br>
-            <label for="name">Coloque o valor do cupom:</label>
-            <input type="text" name="valor_cupom" id="valor_cupom" autocomplete="off"placeholder="Digite o valor do cupom"><br>
-            <label for="name">Coloque o link do produto:</label>
-            <input type="text" name="link" id="link" autocomplete="off"placeholder="Coloque o link"><br>
-            <button type="submit" id="send">Enviar</button>
-            <button type="submit" id="clear">Clear</button>
-        </form>
+      <form>
+        <label for="name">Coloque o nome do produto:</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          autocomplete="off"
+          placeholder="Digite o nome do produto"
+        /><br />
+        <label for="name">Coloque o valor atual do produto:</label>
+        <input
+          type="text"
+          name="valor"
+          id="valor_atual"
+          autocomplete="off"
+          placeholder="Digite o valor atual"
+        /><br />
+        <label for="name">Coloque o cupom do produto:</label>
+        <input
+          type="text"
+          name="cupom"
+          id="cupom"
+          autocomplete="off"
+          placeholder="Coloque o cupom"
+        /><br />
+        <label for="name">Coloque o valor do cupom:</label>
+        <input
+          type="text"
+          name="valor_cupom"
+          id="valor_cupom"
+          autocomplete="off"
+          placeholder="Digite o valor do cupom"
+        /><br />
+        <label for="name">Coloque o link do produto:</label>
+        <input
+          type="text"
+          name="link"
+          id="link"
+          autocomplete="off"
+          placeholder="Coloque o link do produto"
+        /><br />
+        <button type="submit" id="enviar">Enviar</button>
+        <button type="submit" id="clear">Clear</button>
+      </form>
+      <article>
         <p id="output"></p>
+        <button id="copiar">Copiar Texto</button>
+      </article>
     </main>
-</body>
+    <footer>
+      <p>
+        Site desenvolvido por
+        <a href="https://github.com/quintaodiogo" target="_blank">Diogo</a>
+      </p>
+    </footer>
+  </body>
 </html>
