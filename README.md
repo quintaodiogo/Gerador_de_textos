@@ -18,7 +18,9 @@ Este é um projeto simples desenvolvido com HTML, CSS e JavaScript que permite g
 
 4. O texto gerado aparecerá logo abaixo do formulário, contendo as informações do produto, o valor original, o valor com o desconto do cupom (caso tenha sido fornecido) e links úteis.
 
-5. Se desejar limpar os campos do formulário, clique no botão "Clear".
+5. Se desejar copiar o texto gerado, clique no botão "Copiar".
+
+6. Se desejar limpar os campos do formulário, clique no botão "Clear".
 
 ## Observações
 
